@@ -1,0 +1,238 @@
+body{
+  background: url(https://i.pinimg.com/564x/d0/42/43/d04243df9060b4e61c1678566b62d684.jpg);
+  background-repeat :no-repeat;
+  background-size: cover;
+}
+
+.top1{
+  margin:0 0 0 0 ;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color:black;
+  background-color:rgba(192,192,192,0.2);font-size:2em;
+  padding:10px 0 10px 0;
+}
+.top2{
+  color:#00ead3;
+}
+
+
+.intro{
+
+  color:white;
+  font-family: 'Dancing Script', cursive;
+  font-size:2em;
+  text-shadow: 2px 2px #FF0000;
+  display: flex;
+  }
+  .intro1{
+    width:400px;
+    height:300px;
+    /* background-color:hsla(0, 100%, 90%, 0.3); */
+
+  }
+  .hire{
+    margin:20px 0 30px 0;
+    width:100px;
+    height:40px;
+    text-shadow: 5px 5px 2px white;
+    border-radius:50%;
+    background:#00b894;
+    font-weight: 200;
+
+  }
+.hire1{
+  color:black;
+  font-weight: 300;
+
+}
+
+/*style of social media for homepage */
+.social1{
+  margin:10px;
+  color:rgba(255,255, 255, 0.8);
+  font-size:20px;
+  height:20px;
+  width:20px;
+  border:1px solid white;
+  border-radius:50%;
+}
+.s1{
+  text-align: center;
+  margin:0 100px 0 100px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: underline;
+}
+a:hover{
+  border-radius:50%;
+  opacity:0.2;
+}
+.myimg{
+ margin-left:50%;
+ position: absolute;
+ top: 8px;
+ right: 16px;
+/* transform:rotateY(35deg); */
+ z-index:-1;
+ /* clip: rect(60px,300px,400px,0px); */
+ border:10px double black;
+ border-radius:330px 0 325px 0;
+ font-size: 18px;
+}.change_content:after{
+  content:'';
+  animation: changetext 10s infinite linear;
+  color:white;
+}
+@keyframes changetext {
+  0%{content:"Game Programmer" ;}
+  25%{content:"XML Editor" ;}
+  50%{content:"NodeJs Starter" ;}
+  75%{content:"Content creator" ;}
+  100%{content:"Streamer" ;}
+
+
+}
+
+/* about page */
+.ab{
+  background-color:white;
+  text-align:center;
+  border-radius:0 0 30px 30px ;
+}
+.ab1{
+  background-color:white;
+  margin:10px;
+}
+#about_me{
+  display: flex;
+  background:rgba(255, 255, 255, 0.2);
+  border-radius:0 30px 0 30px;
+  box-shadow:10px 10px 5px grey ;
+  padding: 0 20px 0 20px;
+  transition: width 2s, height 2s, transform 2s;
+}
+#about_me:hover {
+  transform: rotate(2deg);
+}
+.abimg{
+    width:30%;
+    float: right;
+    margin:20px;
+    border-radius:20%;
+    box-shadow:10px 10px 5px white ;
+
+}
+.abcontant{
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+#habits{
+  display: flex;
+  background:rgba(255, 255, 255, 0.2);
+  border-radius:0 30px 0 30px;
+  box-shadow:10px 10px 5px grey ;
+  padding:20px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#habits:hover {
+  transform: rotate(2deg);}
+  .habimg{
+    width:30%;
+    float: right;
+    margin:20px;
+    border-radius:20%;
+    box-shadow:10px 10px 5px white ;
+  }
+#study{
+  display: flex;
+  background:rgba(255, 255, 255, 0.2);
+  border-radius:0 30px 0 30px;
+  box-shadow:10px 10px 5px grey ;
+  padding:20px;
+  transition: width 2s, height 2s, transform 2s;
+}
+#study:hover{
+  transform: rotate(2deg);
+}
+.degree:after{
+  content:'';
+  animation: changedegree 2s infinite linear;
+  color:white;
+}
+@keyframes changedegree {
+  0%{content:"Typical" ;}
+
+  100%{content:"High School" ;}
+}
+.degree1:after{
+  content: "";
+  animation:school 2s infinite linear;
+  color:white;
+}
+@keyframes school{
+  0%{content:"College" ;}
+
+  100%{content:"Degree" ;}
+
+}
+
+
+
+#skill{
+  display: flex;
+  background:rgba(255, 255, 255, 0.2);
+  border-radius:0 30px 0 30px;
+  box-shadow:10px 10px 5px grey ;
+  padding:20px;
+  transition: width 2s, height 2s, transform 2s;
+}
+#skill:hover{
+  transform: rotate(2deg);
+}
+.skimg
+{
+  width:50%;
+  float: left;
+  margin:20px;
+  border-radius:20%;
+  box-shadow:10px 10px 5px grey ;
+
+}
+/* contact page */
+.cont{
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size:2em;
+}
+.cont1{
+  font-family: 'Reggae One', cursive;;
+}
+input{
+  color:white;
+  background:none;
+  border:none;
+  border-bottom:1px solid white;
+}
+
+
+/* *********************** */
+footer{
+  margin-top:50px;
+  position: relative;
+   left: 0;
+   bottom: 0;
+   height:5%;
+   width: 100%;
+   background-color:rgba(192,192,192,0.2);
+   color: white;
+   text-align: center;
+}
