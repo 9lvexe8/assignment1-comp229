@@ -1,6 +1,13 @@
 <%- include('header'); -%>
 <!-- intro -->
 <div>
+  <nav class="nav nav-masthead justify-content-center float-md-end">
+    <form action="/logout?_method=DELETE" method="POST">
+      <button class="nav-link fw-bold py-1 px-0 btn p=3 btn-dark text-white" type="submit" > Logout </button>
+    </form>
+  </nav>
+  </div>
+<div>
   <img style="width:100px; height:100px;margin:20px;border-radius:50%; " src="https://pbs.twimg.com/media/FeBVF9OXgAAV4m1?format=png&name=small" alt="">
   <h1>Welcome to the home page, please enjoy and take a look around! </h1>
 </div>
@@ -10,7 +17,6 @@
   <p  class="intro" ><span class="change_content"></span></p>
 </div>
 <img class="myimg" src="https://pbs.twimg.com/profile_images/821683926641033216/lte1Obpw_400x400.jpg" alt="">
-
 
 
 <!-- social media  connectivity  link-->
